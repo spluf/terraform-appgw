@@ -11,7 +11,7 @@ terraform {
 provider "azurerm" {
   features {}
 
-  subscription_id = "2a8a41ac-9d31-4f2e-9e0f-f2896af7cc65"
+  subscription_id = "00000000-00000-00000-0000000000"
 }
 
 # since these variables are re-used - a locals block makes this more maintainable
